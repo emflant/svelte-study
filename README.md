@@ -36,3 +36,17 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+
+
+
+node@d438772d98c5 /usr/src/app
+> $ npm i -D @sveltejs/adapter-vercel                                                                                                               [±main ✓]
+
+added 73 packages, and audited 131 packages in 14s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
