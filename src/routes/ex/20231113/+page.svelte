@@ -12,7 +12,6 @@
 <svelte:head>
 	<title>ex12</title>
 	<meta name="description" content="About this app" />
-    
 </svelte:head>
 
 <div><h2 class="mt-5">exmple111</h2></div>
