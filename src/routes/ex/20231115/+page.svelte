@@ -2,7 +2,7 @@
 
     import InputText from '$lib/form/InputText.svelte'
     import Select from '$lib/form/Select.svelte'
-    import { validateForm, resetAllForm } from '$lib/js/formValidation.js'
+    import { validateForm } from '$lib/js/formValidation.js'
 
     let contents = {};
     let cdGender = [ { id : null, name : '-'}, { id : 'M', name : '남' }, { id : 'F', name : '여'}];
