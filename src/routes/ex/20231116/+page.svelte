@@ -3,18 +3,18 @@
     import InputText from '$lib/form/InputText.svelte'
     import Select from '$lib/form/Select.svelte'
     import Form from '$lib/form/Form.svelte'
-    // import { validateForm, resetAllForm } from '$lib/js/formValidation.js'
 
+    let title = 'EX-20231116';
     let contents = {};
     let cdGender = [ { id : null, name : '-'}, { id : 'M', name : '남' }, { id : 'F', name : '여'}];
 </script>
 
 <svelte:head>
-	<title>ex12</title>
+	<title>{title}</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div><h2 class="mt-5">exmple111</h2></div>
+<div><h2 class="mt-5">{title}</h2></div>
 <div class="row">
 	<div class="col">
         <div class="row">

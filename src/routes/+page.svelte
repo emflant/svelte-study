@@ -9,7 +9,17 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-Svelte demo app home
+<div><h2 class="mt-5">Home</h2></div>
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="list-group">
+			<a href="/ex/20231115" class="list-group-item list-group-item-action">ex-20231115</a>
+			<a href="/ex/20231116" class="list-group-item list-group-item-action">ex-20231116</a>
+		</div>
+	</div>
+</div>
+
 
 <style>
 

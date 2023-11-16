@@ -9,11 +9,11 @@
 </script>
 
 <svelte:head>
-	<title>ex12</title>
+	<title>EX-20231115</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div><h2 class="mt-5">exmple1</h2></div>
+<div><h2 class="mt-5">EX-20231115</h2></div>
 <div class="row">
 	<div class="col">
         <div class="row">
