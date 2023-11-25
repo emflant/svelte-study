@@ -1,0 +1,18 @@
+@font-face {
+    src: url('./GmarketSansTTFLight.ttf');
+    font-family: "GmarketSansTTFLight";
+}
+@font-face {
+    src: url('./GmarketSansTTFMedium.ttf');
+    font-family: "GmarketSansTTFMedium";
+}
+@font-face {
+    src: url('./GmarketSansTTFBold.ttf');
+    font-family: "GmarketSansTTFBold";
+}
+
+/* 검은고딕 */
+@font-face {
+    src: url('./BlackHanSans.ttf');
+    font-family: "BlackHanSans";
+}

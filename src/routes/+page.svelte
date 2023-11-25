@@ -14,8 +14,9 @@
 <div class="row">
 	<div class="col-md-6">
 		<div class="list-group">
-			<a href="/ex/20231115" class="list-group-item list-group-item-action">ex-20231115</a>
-			<a href="/ex/20231116" class="list-group-item list-group-item-action">ex-20231116</a>
+			<a href="/ex/2023/1115" class="list-group-item list-group-item-action">ex-20231115</a>
+			<a href="/ex/2023/1116" class="list-group-item list-group-item-action">ex-20231116</a>
+			<a href="/ex/2023/1124" class="list-group-item list-group-item-action">Svelte에서 Bootstrap 아이콘 사용하기1</a>
 		</div>
 	</div>
 </div>
