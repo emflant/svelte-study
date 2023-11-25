@@ -17,6 +17,8 @@
 			<a href="/ex/2023/1115" class="list-group-item list-group-item-action">ex-20231115</a>
 			<a href="/ex/2023/1116" class="list-group-item list-group-item-action">ex-20231116</a>
 			<a href="/ex/2023/1124" class="list-group-item list-group-item-action">Svelte에서 Bootstrap 아이콘 사용하기1</a>
+			<a href="/ex/2023/1125" class="list-group-item list-group-item-action">Svelte에서 Bootstrap 아이콘 사용하기2</a>
+			<a href="/ex/2023/1126" class="list-group-item list-group-item-action">Svelte에서 Bootstrap 아이콘 사용하기3</a>
 		</div>
 	</div>
 </div>

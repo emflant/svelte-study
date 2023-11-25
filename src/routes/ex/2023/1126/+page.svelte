@@ -1,16 +1,21 @@
 <script>
-    import 'bootstrap-icons/font/bootstrap-icons.css'
+    
 </script>
-<div><h2 class="my-5">Svelte에서 Bootstrap 아이콘 사용하기1</h2></div>
+
+<svelte:head>
+	<link rel="stylesheet" href="/bootstrap-icons-1.11.2/font/bootstrap-icons.min.css">
+</svelte:head>
+
+<div><h2 class="my-5">Svelte에서 Bootstrap 아이콘 사용하기3</h2></div>
 
 <div class="row">
     <div class="col-md-7">
         <h4>소스</h4>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="15" readonly
         style="font-family:monospace;">
-&lt;script&gt;
-    import 'bootstrap-icons/font/bootstrap-icons.css'
-&lt;/script&gt;
+<svelte:head>
+    <link rel="stylesheet" href="/bootstrap-icons-1.11.2/font/bootstrap-icons.min.css">
+</svelte:head>
 
 <i class="bi bi-amazon"></i>
 <i class="bi bi-apple"></i>
