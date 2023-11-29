@@ -18,6 +18,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bootstrap-icons": "^1.11.2"
+		"bootstrap-icons": "^1.11.2",
+		"highlight.js": "^11.9.0"
 	}
 }
