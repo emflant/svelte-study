@@ -17,7 +17,6 @@ namespace MyApplication
             return new List<int>(new int[] { 1, 2, 3 })
         }
     }
-}
-`
+}`
 	};
 }
