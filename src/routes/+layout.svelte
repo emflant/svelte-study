@@ -1,5 +1,5 @@
 <main>
-	<a href='/'>home</a>
+	<a href='/' data-sveltekit-reload>home</a>
 	<slot />
 </main>
 
