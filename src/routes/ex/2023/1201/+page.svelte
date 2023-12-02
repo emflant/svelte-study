@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import Highlight from '$lib/form/Highlight.svelte';
     import hljs from 'highlight.js/lib/core';
     import javascript from 'highlight.js/lib/languages/javascript';
     import julia from 'highlight.js/lib/languages/julia';
@@ -11,14 +12,13 @@
     hljs.registerLanguage('javascript', javascript);
     hljs.registerLanguage('julia', julia);
     
-
     const codeGo =
 `package main
 
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, 世界")
+    fmt.Println("Hello, 世界")
 }
 `;
 
@@ -30,14 +30,10 @@ const codeJulia =
 end
 `
 
-
-
     onMount(() => {
-        // hljs.registerLanguage('julia', julia);
         hljs.highlightAll();
-        // console.log(hljs.listLanguages())
-        
     });
+
 </script>
 
 <div><h2 class="my-5">Svelte에서 highlight.js 에 언어정보 배지추가</h2></div>
@@ -60,6 +56,12 @@ end
             </pre>
             <h6><span class="position-absolute top-0 end-0 badge text-bg-warning rounded-1 p-2 text-uppercase">go</span></h6>
         </div>
+    </div>
+
+    <div class="col-lg-6">
+        <h4>Svelte Nested 사용</h4>
+        <p>컴포넌트화해서 재사용할 수 있게 분리해본다.</p>
+        <Highlight code={codeJulia} language="julia" />
     </div>
     
 </div>
