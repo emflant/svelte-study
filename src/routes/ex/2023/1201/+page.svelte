@@ -35,15 +35,23 @@ end
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
 </svelte:head>
 
-<div><h2 class="my-5">Svelte에서 highlight.js 연동 -1132</h2></div>
+<div><h2 class="my-5">Svelte에서 highlight.js 에 언어정보 배지추가</h2></div>
 
 <div class="row">
     <div class="col-lg-6">
-        <h4>Code { hljs.listLanguages().length }개 언어1</h4>
+        <h4>text-bg-warning 테마</h4>
         <div class="position-relative">
             <pre><code class="language-julia">{codeJulia}</code>
             </pre>
             <h6><span class="position-absolute top-0 end-0 badge text-bg-warning rounded-0 p-2">JAVA</span></h6>
+        </div>
+
+        <h4>text-bg-dark 테마</h4>
+        <p>그런데 <code>text-bg-dark</code> 가 완벽한 black은 아니어서 <code>bootstrap.css</code> 파일을 수정했다.</p>
+        <div class="position-relative">
+            <pre><code class="language-julia">{codeJulia}</code>
+            </pre>
+            <h6><span class="position-absolute top-0 end-0 badge text-bg-dark rounded-0 p-2">JAVA</span></h6>
         </div>
     </div>
     <div class="col-lg-6">
