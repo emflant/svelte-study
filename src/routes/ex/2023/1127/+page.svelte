@@ -12,9 +12,8 @@
     <span>Hello World!</span>
 </div>`;
 
-    // onMount 의 기능발견!
     onMount(() => {
-        hljs.highlightAll(); // 모든 코드 블록을 강조 표시
+        hljs.highlightAll(); // 모든 코드 블록을 강조 표시        
     });
 
 </script>
@@ -23,7 +22,7 @@
     
 </svelte:head>
 
-<div><h2 class="my-5">Svelte에서 highlight.js 연동1</h2></div>
+<div><h2 class="my-5">Svelte에서 highlight.js 연동 - npm 설치버전</h2></div>
 
 <div class="row">
     <div class="col-lg-6">

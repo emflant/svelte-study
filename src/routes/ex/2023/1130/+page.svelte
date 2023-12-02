@@ -32,7 +32,7 @@ end
     onMount(() => {
         // hljs.registerLanguage('julia', julia);
         hljs.highlightAll();
-        console.log(hljs.listLanguages())
+        console.log(hljs.listLanguages().length);
         
     });
 </script>
