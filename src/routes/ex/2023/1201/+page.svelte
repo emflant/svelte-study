@@ -51,11 +51,7 @@ end
     <div class="col-lg-6">
         <h4>text-bg-warning 테마</h4>
         <p>warning 테마도 어울리는 편 같다. 모서리마다 약간 라운드 처리를 하니 조금 더 부드러워 보인다.</p>
-        <div class="position-relative">
-            <pre><code class="language-go rounded-2">{codeGo}</code>
-            </pre>
-            <h6><span class="position-absolute top-0 end-0 badge text-bg-warning rounded-1 p-2 text-uppercase">go</span></h6>
-        </div>
+        <Highlight code={codeGo} language="go" />
     </div>
 
     <div class="col-lg-6">
