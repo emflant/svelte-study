@@ -20,19 +20,22 @@ import "fmt"
 
 func main() {
     fmt.Println("Hello, 世界")
-}
-`;
+}`;
 
 const codeJulia = 
 `function f(x, y)
     x[1] = 42    # mutates x
     y = 7 + y    # new binding for y, no mutation
     return y
-end
-`
+end`
 
     onMount(() => {
         hljs.highlightAll();
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        const popover = new bootstrap.Popover('.popover-dismiss', {
+  trigger: 'focus'
+})
     });
 
 </script>
@@ -42,13 +45,13 @@ end
 <div class="row">
     
     <div class="col-lg-6">
-        <h4>text-bg-warning 테마</h4>
+        <h4>Go 프로그램언어</h4>
         <p>warning 테마도 어울리는 편 같다. 모서리마다 약간 라운드 처리를 하니 조금 더 부드러워 보인다.</p>
         <HighlightGray code={codeGo} language="go" />
     </div>
     <div class="col-lg-6">
-        <h4>text-bg-warning 테마</h4>
+        <h4>Julia 프로그램언어</h4>
         <p>warning 테마도 어울리는 편 같다. 모서리마다 약간 라운드 처리를 하니 조금 더 부드러워 보인다.</p>
-        <HighlightGray code={codeGo} language="go" />
+        <HighlightGray code={codeJulia} language="julia" />
     </div>
 </div>
