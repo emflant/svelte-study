@@ -23,7 +23,7 @@
 			<a href="/ex/2023/1131" class="list-group-item list-group-item-action" data-sveltekit-reload>highlightjs 예시 - 1131</a>
 			<a href="/ex/2023/1132" class="list-group-item list-group-item-action" data-sveltekit-reload>highlightjs 예시 - 1132</a>
 			<a href="/ex/2023/1201" class="list-group-item list-group-item-action">highlightjs 예시 - 라벨추가</a>
-			<a href="/ex/2023/1202" class="list-group-item list-group-item-action">highlightjs 예시 - 라벨추가2</a>
+			<a href="/ex/2023/1203" class="list-group-item list-group-item-action">highlightjs 예시 - 라벨&복사버튼</a>
 		</div>
 	</div>
 </div>
