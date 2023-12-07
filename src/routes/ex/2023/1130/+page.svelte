@@ -46,11 +46,10 @@ end
 <div><h2 class="my-5">Svelte에서 highlight.js 연동 -1130</h2></div>
 
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col">
         <h4>Code</h4>
         <pre><code class="language-go">{code3}</code></pre>
         <pre><code class="language-html">{code2}</code></pre>
         <pre><code class="language-julia">{codeJulia}</code></pre>
     </div>
-    <div class="col-lg-6"></div>
 </div>
